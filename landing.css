@@ -194,18 +194,8 @@ li:hover{
     /* border: 2px solid red; */
   
 }
-.p1{
-    font-size: 32px;
-    /* border: 2px solid skyblue; */
-    font-family: monospace;
-    height: 72px;
-    background-color:lightcyan;
-    /* display: none; */
 
-}
-.g-class{
-    opacity: 0;
-}
+
 .box1:hover{
     box-shadow: 4px 4px 4px rgba(0,0,0,0.45);
 }
