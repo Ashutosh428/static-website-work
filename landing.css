@@ -690,6 +690,73 @@ left: 127px;
 margin-right: 117px;
 width: 262px;
     }
+      .box1{
+        margin-right: 167px;
+        width: 278px;
+    }
+    .first h2{
+        margin-right: 186px;
+        font-size: 22px;
+    }
+    .abc p{
+        width: 275px;
+        font-size: 22px;
+        margin-right: 127px;
+    }
+    .box2{
+        margin-right: 199px;
+        width: 278px;
+    }
+    .second h2{
+        margin-right: 186px;
+        font-size: 22px;
+    }
+    .box3{
+        margin-right: 166px;
+        width: 289px;
+    }
+    .third h2{
+        margin-right: 186px;
+        font-size: 22px;
+    }
+    .clients{
+        flex-wrap: wrap;
+        position: relative;
+        bottom: 59px;
+        margin-right: 31px;
+        width: 287px;
+    }
+    .clients-item img{
+width: 63px;
+height: 68px;
+    }
+    .form-grp{
+        margin-left: 43px;
+
+    }
+    .form-grp #name{
+        width: 225px;
+        margin-left: 2px;
+    }
+    .form-grp #eml{
+        width: 225px;
+        margin-left: 2px;
+    }
+    .form-grp #ctc{
+        width: 187px;
+    }
+    #contactbox label{
+        margin-left: 31px;
+        top: 29px;
+    }
+    .form-grp #msg{
+        margin-left: 10px;
+        width: 274px;
+    }
+    .center{
+        font-size: 26px;
+        padding-left: 6px;
+    }
 }
 
 
