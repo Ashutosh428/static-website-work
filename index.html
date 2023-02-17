@@ -5,6 +5,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@1,100&family=Montserrat:wght@200&family=Noto+Sans:wght@300&family=Poppins:wght@200&family=Ubuntu:ital@1&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/light-modal.css">
+    <link rel="stylesheet" href="css/light-modal.min.css">
+    <link rel="stylesheet"    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
     <link rel="stylesheet"  media="screen and (max-width:1305px)" href="phone.css">
     <link rel="stylesheet" href="landing.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -116,10 +121,26 @@
                     <label for="message">Give your feedback</label>
                      <textarea name="" id="msg" cols="30" rows="10"></textarea>
                     </div>
+                <a href="#unique-id" class="btn">Submit</a>
             </form>
         </div>
 
     </section>
+    
+     <div class="light-modal" id="unique-id" role="dialog" aria-labelledby="light-modal-label" aria-hidden="false">
+    <div class="light-modal-content animate__animated animate__jackInTheBox">
+        
+        <!-- light modal body -->
+        <div class="light-modal-body">
+            <!-- Your content -->
+            <h1>Thank you for submitting the form</h1>
+        </div>
+        <!-- light modal footer -->
+        <div class="light-modal-footer">
+            <a href="#" class="light-modal-close-btn" aria-label="close">Close</a>
+        </div>
+    </div>
+</div>
 
 <footer> 
     <div class="center">
