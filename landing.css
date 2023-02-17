@@ -2,6 +2,7 @@
     margin: 1px;
     padding: 0;
      /* box-sizing: border-box;  */
+    font-family: 'Ubuntu', sans-serif;
 }
 body{
     /* background-image: url(food.jpg);
@@ -100,7 +101,7 @@ li:hover{
 }
 
 
-.btn {
+.ordernow {
   background: #5E5DF0;
   border-radius: 999px;
   box-shadow: #5E5DF0 0 10px 20px -10px;
@@ -459,12 +460,18 @@ margin-top: 40px;
     font-style: italic;
     font-weight: bold;
 }
+  .ordernow{
+    border: 0;
+     background: #5E5DF0; 
+    font-weight: 700;
+    padding: 4px;
+  } 
 
 
 
 @media only screen  and (min-width:400px)and (max-width:840px){
  
-     .btn{
+     .ordernow{
         
         position: relative;
         /* top: 30px; */
@@ -675,7 +682,7 @@ margin-left: 44px;
     bottom: 195px;
     margin-right: 49px;
     }
-    .btn{
+    .ordernow{
         width: 127px;
         margin-left: -93px;
         font-size: 13px;
