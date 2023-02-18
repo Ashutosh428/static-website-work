@@ -71,7 +71,7 @@ margin-bottom: 15px;
 }
 
 
-li {
+li a {
     padding: 12px;
     list-style: none;
     margin-left: 10px;
@@ -81,7 +81,14 @@ li {
     
      
 }
-li:hover{
+nav ul li a{
+    list-style: none;
+    text-decoration: none;
+    font-weight: bold;
+
+
+}
+li a:hover{
     background-color:green ;
     text-shadow: 2px;
     transition: 
