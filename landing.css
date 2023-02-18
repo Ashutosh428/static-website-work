@@ -81,6 +81,13 @@ li a {
     
      
 }
+nav ul li{
+    padding: 12px 20px;
+    font-size: 16px;
+    
+    
+
+}
 nav ul li a{
     list-style: none;
     text-decoration: none;
